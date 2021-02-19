@@ -10,7 +10,6 @@ namespace FillMatStack
         static int p = 10;
         static void Main(string[] args)
         {
-;
             max = new int[p, p];
             Console.WriteLine("До:");
             Create(p);
@@ -39,7 +38,6 @@ namespace FillMatStack
                     }
                 }
             }
-
         }
 
         public static void Show(int[,] max)
