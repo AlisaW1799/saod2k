@@ -27,12 +27,12 @@ namespace FillMatStack
         public static void Create(int p)
         {
             max = new int[p, p];
-            Random hate = new Random();
+            Random r = new Random();
             for (int i = 0; i < p; i++)
             {
                 for (int j = 0; j < p; j++)
                 {
-                    if (hate.Next(0, 4) == 1)
+                    if (r.Next(0, 4) == 1)
                     {
                         max[i, j] = 1;
                     }
