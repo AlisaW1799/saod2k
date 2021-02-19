@@ -1,0 +1,11 @@
+C:\Users\AEO.19\source\repos\FillMatStack\FillMatStack\bin\Debug\netcoreapp3.0\FillMatStack.exe
+C:\Users\AEO.19\source\repos\FillMatStack\FillMatStack\bin\Debug\netcoreapp3.0\FillMatStack.deps.json
+C:\Users\AEO.19\source\repos\FillMatStack\FillMatStack\bin\Debug\netcoreapp3.0\FillMatStack.runtimeconfig.json
+C:\Users\AEO.19\source\repos\FillMatStack\FillMatStack\bin\Debug\netcoreapp3.0\FillMatStack.runtimeconfig.dev.json
+C:\Users\AEO.19\source\repos\FillMatStack\FillMatStack\bin\Debug\netcoreapp3.0\FillMatStack.dll
+C:\Users\AEO.19\source\repos\FillMatStack\FillMatStack\bin\Debug\netcoreapp3.0\FillMatStack.pdb
+C:\Users\AEO.19\source\repos\FillMatStack\FillMatStack\obj\Debug\netcoreapp3.0\FillMatStack.csprojAssemblyReference.cache
+C:\Users\AEO.19\source\repos\FillMatStack\FillMatStack\obj\Debug\netcoreapp3.0\FillMatStack.AssemblyInfoInputs.cache
+C:\Users\AEO.19\source\repos\FillMatStack\FillMatStack\obj\Debug\netcoreapp3.0\FillMatStack.AssemblyInfo.cs
+C:\Users\AEO.19\source\repos\FillMatStack\FillMatStack\obj\Debug\netcoreapp3.0\FillMatStack.dll
+C:\Users\AEO.19\source\repos\FillMatStack\FillMatStack\obj\Debug\netcoreapp3.0\FillMatStack.pdb
