@@ -1,0 +1,13 @@
+C:\Users\ilove\source\repos\saod\Matrix_filling\Matrix_filling\obj\Debug\netcoreapp3.1\Matrix_filling.csprojAssemblyReference.cache
+C:\Users\ilove\source\repos\saod\Matrix_filling\Matrix_filling\obj\Debug\netcoreapp3.1\Matrix_filling.AssemblyInfoInputs.cache
+C:\Users\ilove\source\repos\saod\Matrix_filling\Matrix_filling\obj\Debug\netcoreapp3.1\Matrix_filling.AssemblyInfo.cs
+C:\Users\ilove\source\repos\saod\Matrix_filling\Matrix_filling\obj\Debug\netcoreapp3.1\Matrix_filling.csproj.CoreCompileInputs.cache
+C:\Users\ilove\source\repos\saod\Matrix_filling\Matrix_filling\bin\Debug\netcoreapp3.1\Matrix_filling.exe
+C:\Users\ilove\source\repos\saod\Matrix_filling\Matrix_filling\bin\Debug\netcoreapp3.1\Matrix_filling.deps.json
+C:\Users\ilove\source\repos\saod\Matrix_filling\Matrix_filling\bin\Debug\netcoreapp3.1\Matrix_filling.runtimeconfig.json
+C:\Users\ilove\source\repos\saod\Matrix_filling\Matrix_filling\bin\Debug\netcoreapp3.1\Matrix_filling.runtimeconfig.dev.json
+C:\Users\ilove\source\repos\saod\Matrix_filling\Matrix_filling\bin\Debug\netcoreapp3.1\Matrix_filling.dll
+C:\Users\ilove\source\repos\saod\Matrix_filling\Matrix_filling\bin\Debug\netcoreapp3.1\Matrix_filling.pdb
+C:\Users\ilove\source\repos\saod\Matrix_filling\Matrix_filling\obj\Debug\netcoreapp3.1\Matrix_filling.dll
+C:\Users\ilove\source\repos\saod\Matrix_filling\Matrix_filling\obj\Debug\netcoreapp3.1\Matrix_filling.pdb
+C:\Users\ilove\source\repos\saod\Matrix_filling\Matrix_filling\obj\Debug\netcoreapp3.1\Matrix_filling.genruntimeconfig.cache
