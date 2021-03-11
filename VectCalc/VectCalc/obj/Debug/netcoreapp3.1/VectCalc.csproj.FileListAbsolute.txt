@@ -1,0 +1,15 @@
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\bin\Debug\netcoreapp3.1\VectCalc.exe
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\bin\Debug\netcoreapp3.1\VectCalc.deps.json
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\bin\Debug\netcoreapp3.1\VectCalc.runtimeconfig.json
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\bin\Debug\netcoreapp3.1\VectCalc.runtimeconfig.dev.json
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\bin\Debug\netcoreapp3.1\VectCalc.dll
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\bin\Debug\netcoreapp3.1\VectCalc.pdb
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\obj\Debug\netcoreapp3.1\VectCalc.csprojAssemblyReference.cache
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\obj\Debug\netcoreapp3.1\VectCalc.Form1.resources
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\obj\Debug\netcoreapp3.1\VectCalc.csproj.GenerateResource.cache
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\obj\Debug\netcoreapp3.1\VectCalc.AssemblyInfoInputs.cache
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\obj\Debug\netcoreapp3.1\VectCalc.AssemblyInfo.cs
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\obj\Debug\netcoreapp3.1\VectCalc.csproj.CoreCompileInputs.cache
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\obj\Debug\netcoreapp3.1\VectCalc.dll
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\obj\Debug\netcoreapp3.1\VectCalc.pdb
+C:\Users\ilove\source\repos\SAOD\VectCalc\VectCalc\obj\Debug\netcoreapp3.1\VectCalc.genruntimeconfig.cache
