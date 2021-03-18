@@ -1,99 +1,165 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 
 namespace LinkedList
 {
     class Program
     {
-        public class Node
+        public class Node<T>
         {
-            public int data;
-            public Node next;
+            public T data;
+            public Node<T> Next { get; set; }
 
-            public Node(int x)
+            public Node(T x)
             {
                 this.data = x;
-                this.next = null;
             }
         }
 
-        public class SLList
+        public class SLList<T>
         {
-            public Node head;
-            public Node tail;
-            int size = 0;
+            public int size { private set; get; }
+            private Node<T> head;
 
-            public SLList()
+            public T First => size > 0 ? head.data : default;
+            public T Last => size > 0 ? this[size - 1] : default;
+
+            public void AddLast(T x)
+            {
+                var newNode = new Node<T>(x);
+
+                if (size > 0)
+                    GetValue(size - 1).Next = newNode;
+                else
+                    head = newNode;
+
+                size++;
+            }
+
+            public void AddFirst(T x)
+            {
+                var newNode = new Node<T>(x);
+
+                if (size > 0)
+                    newNode.Next = head;
+                head = newNode;
+
+                size++;
+            }
+
+            public void Insert(int ind, T x)
+            {
+                if (ind == size) 
+                    AddLast(x);
+                else if (ind == 0) 
+                    AddFirst(x);
+                else
+                {
+                    var next = GetValue(ind);
+                    var previous = GetValue(ind - 1);
+                    var newNode = new Node<T>(x);
+                    newNode.Next = next;
+                    previous.Next = newNode;
+                    size++;
+                }
+            }
+
+            public void RemoveAt(int ind)
+            {
+                var newNode = GetValue(ind);
+                if (size == 1)
+                    head = null;
+                else if (head == newNode)
+                    head = newNode.Next;
+                else
+                    GetValue(ind - 1).Next = newNode.Next;
+                size--;
+            }
+
+            public void Clear()
             {
                 head = null;
-                tail = head;
                 size = 0;
             }
 
-            public void AddLast(int x)
+            public int IndexOf(T x)
             {
-                ++size;
-                var newNode = new Node(x);
+                var curr = head;
+                if (object.Equals(curr.data, x)) 
+                    return 0;
 
-                if (head == null)
+                for (var i = 1; i < size; i++)
                 {
-                    head = newNode;
-                    tail = head;
+                    curr = curr.Next;
+                    if (object.Equals(curr.data, x)) 
+                        return i;
                 }
-                else
-                {
-                    tail.next = newNode;
-                    tail = newNode;
-                }
+
+                return -1;
             }
 
-            public void AddFirst(int x)
-            {
-                var newNode = new Node(x);
-                ++size;
-                if (head == null)
-                {
-
-                }
-                else
-                {
-                    newNode.next = head;
-                    head=
-                }
-            }
-
-            public int this[int ind]
+            public T this[int ind]
             {
                 get
                 {
-                    return GetValue(ind);
+                    if (ind < 0 || ind >= size)
+                        throw new IndexOutOfRangeException("Index is out of range: index = " + ind + "; size = " + size);
+                    return GetValue(ind).data;
                 }
                 set
                 {
-                    //написать
+                    if (ind < 0 || ind >= size)
+                        throw new IndexOutOfRangeException("Index is out of range: index = " + ind + "; size = " + size);
+                    GetValue(ind).data = value;
                 }
-            }
-            public int GetValue(int p)
-            {
-                var curr = head;
-                for (int i = 0; i < p && curr != null; i++)
-                {
-                    curr = curr.next;
-                }
-                return curr.data;
             }
 
-            public IEnumerable(int Enumerate)
+            public Node<T> GetValue(int ind)
             {
-                for (int i = 0; i < size; i++)
+                var curr = head;
+                for (var i = 0; i < ind; i++)
                 {
-                    return yield GetValue();
+                    curr = curr.Next;
                 }
+                return curr.Next;
             }
+
+            public T[] ToArray()
+            {
+                var array = new T[size];
+                if (size == 0) 
+                    return array;
+
+                var temp = head;
+                array[0] = temp.data;
+
+                for (var i = 1; i < size; i++)
+                {
+                    temp = temp.Next;
+                    array[i] = temp.data;
+                }
+                return array;
+            }
+            public bool Contains(T element) =>
+        IndexOf(element) != -1;
+            public IEnumerator<T> GetEnumerator() =>
+                ToArray().GetEnumerator() as IEnumerator<T>;
         }
+
         static void Main(string[] args)
         {
-            var list = new SLList();
+            var list = new SLList<int>();
+            list.AddLast(1);
+            list.AddLast(2);
+            list.AddLast(3);
+            list.AddLast(4);
+            list.RemoveAt(2);
+            for (int i = 0; i < list.size; i++)
+            {
+                Console.Write(list[i] + " ");
+            }
+            Console.WriteLine("null");
         }
     }
 }
