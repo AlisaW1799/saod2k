@@ -1,0 +1,10 @@
+C:\Users\aeo.19\source\repos\Linked2List\Linked2List\bin\Debug\netcoreapp3.0\Linked2List.exe
+C:\Users\aeo.19\source\repos\Linked2List\Linked2List\bin\Debug\netcoreapp3.0\Linked2List.deps.json
+C:\Users\aeo.19\source\repos\Linked2List\Linked2List\bin\Debug\netcoreapp3.0\Linked2List.runtimeconfig.json
+C:\Users\aeo.19\source\repos\Linked2List\Linked2List\bin\Debug\netcoreapp3.0\Linked2List.runtimeconfig.dev.json
+C:\Users\aeo.19\source\repos\Linked2List\Linked2List\bin\Debug\netcoreapp3.0\Linked2List.dll
+C:\Users\aeo.19\source\repos\Linked2List\Linked2List\bin\Debug\netcoreapp3.0\Linked2List.pdb
+C:\Users\aeo.19\source\repos\Linked2List\Linked2List\obj\Debug\netcoreapp3.0\Linked2List.AssemblyInfoInputs.cache
+C:\Users\aeo.19\source\repos\Linked2List\Linked2List\obj\Debug\netcoreapp3.0\Linked2List.AssemblyInfo.cs
+C:\Users\aeo.19\source\repos\Linked2List\Linked2List\obj\Debug\netcoreapp3.0\Linked2List.dll
+C:\Users\aeo.19\source\repos\Linked2List\Linked2List\obj\Debug\netcoreapp3.0\Linked2List.pdb
