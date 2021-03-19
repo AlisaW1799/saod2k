@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace LinkedList
@@ -50,9 +49,9 @@ namespace LinkedList
 
             public void Insert(int ind, T x)
             {
-                if (ind == size) 
+                if (ind == size)
                     AddLast(x);
-                else if (ind == 0) 
+                else if (ind == 0)
                     AddFirst(x);
                 else
                 {
@@ -86,13 +85,13 @@ namespace LinkedList
             public int IndexOf(T x)
             {
                 var curr = head;
-                if (object.Equals(curr.data, x)) 
+                if (object.Equals(curr.data, x))
                     return 0;
 
                 for (var i = 1; i < size; i++)
                 {
                     curr = curr.Next;
-                    if (object.Equals(curr.data, x)) 
+                    if (object.Equals(curr.data, x))
                         return i;
                 }
 
@@ -122,13 +121,13 @@ namespace LinkedList
                 {
                     curr = curr.Next;
                 }
-                return curr.Next;
+                return curr;
             }
 
             public T[] ToArray()
             {
                 var array = new T[size];
-                if (size == 0) 
+                if (size == 0)
                     return array;
 
                 var temp = head;
@@ -141,11 +140,11 @@ namespace LinkedList
                 }
                 return array;
             }
-            public bool Contains(T element) =>
-        IndexOf(element) != -1;
             public IEnumerator<T> GetEnumerator() =>
                 ToArray().GetEnumerator() as IEnumerator<T>;
         }
+
+
 
         static void Main(string[] args)
         {
@@ -154,12 +153,53 @@ namespace LinkedList
             list.AddLast(2);
             list.AddLast(3);
             list.AddLast(4);
+            for (int i = 0; i < list.size; i++)
+            {
+                Console.Write(list[i] + " ");
+            }
+            Console.WriteLine();
+
             list.RemoveAt(2);
             for (int i = 0; i < list.size; i++)
             {
                 Console.Write(list[i] + " ");
             }
+            Console.WriteLine();
+
+            list.AddFirst(5);
+            for (int i = 0; i < list.size; i++)
+            {
+                Console.Write(list[i] + " ");
+            }
+            Console.WriteLine();
+
+            Console.WriteLine(list.IndexOf(2) + "\n");
+
             Console.WriteLine("null");
+
+
+            var list1 = new SLList<int>();
+            list1.AddLast(1);
+            list1.AddLast(2);
+            list1.AddLast(3);
+            Console.WriteLine(list1.IndexOf(2) + "\n");
+
+            Console.ReadLine();
+        }
+    }
+
+    public static class MyExt
+    {
+        public static int IndexOF<T>(this LinkedList<T> l, T item)
+        {
+            int rez = -1, c = 0;
+            foreach (var i in l)
+            {
+                if (i.Equals(item))
+                    return c;
+                c++;
+            }
+            return rez;
         }
     }
 }
