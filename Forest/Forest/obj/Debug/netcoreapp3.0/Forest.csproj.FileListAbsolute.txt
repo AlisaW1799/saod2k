@@ -1,0 +1,11 @@
+C:\Users\aeo.19\source\repos\Forest\Forest\bin\Debug\netcoreapp3.0\Forest.exe
+C:\Users\aeo.19\source\repos\Forest\Forest\bin\Debug\netcoreapp3.0\Forest.deps.json
+C:\Users\aeo.19\source\repos\Forest\Forest\bin\Debug\netcoreapp3.0\Forest.runtimeconfig.json
+C:\Users\aeo.19\source\repos\Forest\Forest\bin\Debug\netcoreapp3.0\Forest.runtimeconfig.dev.json
+C:\Users\aeo.19\source\repos\Forest\Forest\bin\Debug\netcoreapp3.0\Forest.dll
+C:\Users\aeo.19\source\repos\Forest\Forest\bin\Debug\netcoreapp3.0\Forest.pdb
+C:\Users\aeo.19\source\repos\Forest\Forest\obj\Debug\netcoreapp3.0\Forest.csprojAssemblyReference.cache
+C:\Users\aeo.19\source\repos\Forest\Forest\obj\Debug\netcoreapp3.0\Forest.AssemblyInfoInputs.cache
+C:\Users\aeo.19\source\repos\Forest\Forest\obj\Debug\netcoreapp3.0\Forest.AssemblyInfo.cs
+C:\Users\aeo.19\source\repos\Forest\Forest\obj\Debug\netcoreapp3.0\Forest.dll
+C:\Users\aeo.19\source\repos\Forest\Forest\obj\Debug\netcoreapp3.0\Forest.pdb
