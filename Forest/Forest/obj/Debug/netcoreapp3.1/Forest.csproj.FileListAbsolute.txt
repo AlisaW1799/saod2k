@@ -1,0 +1,13 @@
+C:\Users\ilove\source\repos\SAOD\Forest\Forest\bin\Debug\netcoreapp3.1\Forest.exe
+C:\Users\ilove\source\repos\SAOD\Forest\Forest\bin\Debug\netcoreapp3.1\Forest.deps.json
+C:\Users\ilove\source\repos\SAOD\Forest\Forest\bin\Debug\netcoreapp3.1\Forest.runtimeconfig.json
+C:\Users\ilove\source\repos\SAOD\Forest\Forest\bin\Debug\netcoreapp3.1\Forest.runtimeconfig.dev.json
+C:\Users\ilove\source\repos\SAOD\Forest\Forest\bin\Debug\netcoreapp3.1\Forest.dll
+C:\Users\ilove\source\repos\SAOD\Forest\Forest\bin\Debug\netcoreapp3.1\Forest.pdb
+C:\Users\ilove\source\repos\SAOD\Forest\Forest\obj\Debug\netcoreapp3.1\Forest.csprojAssemblyReference.cache
+C:\Users\ilove\source\repos\SAOD\Forest\Forest\obj\Debug\netcoreapp3.1\Forest.AssemblyInfoInputs.cache
+C:\Users\ilove\source\repos\SAOD\Forest\Forest\obj\Debug\netcoreapp3.1\Forest.AssemblyInfo.cs
+C:\Users\ilove\source\repos\SAOD\Forest\Forest\obj\Debug\netcoreapp3.1\Forest.csproj.CoreCompileInputs.cache
+C:\Users\ilove\source\repos\SAOD\Forest\Forest\obj\Debug\netcoreapp3.1\Forest.dll
+C:\Users\ilove\source\repos\SAOD\Forest\Forest\obj\Debug\netcoreapp3.1\Forest.pdb
+C:\Users\ilove\source\repos\SAOD\Forest\Forest\obj\Debug\netcoreapp3.1\Forest.genruntimeconfig.cache
