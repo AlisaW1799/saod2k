@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace Forest
 {
@@ -17,7 +18,7 @@ namespace Forest
     public class Stree<T> where T : IComparable
     {
         TreeNode<T> root;
-
+        private TreeNode<T> _root;
         public void Add(T value)
         {
             TreeNode<T> node = new TreeNode<T>(value);
@@ -28,7 +29,7 @@ namespace Forest
         }
         private void Add(TreeNode<T> node, TreeNode<T> subroot)
         {
-            if (subroot.Value.CompareTo(node.Value) <= 0) 
+            if (subroot.Value.CompareTo(node.Value) <= 0)
             {
                 if (subroot.right == null)
                     subroot.right = node;
@@ -95,11 +96,11 @@ namespace Forest
             return GetMaxOrMinRec(next, next(node));
         }
 
-        public TreeNode<T> Find (T value)
+        public TreeNode<T> Find(T value)
         {
             return Find(value, root);
         }
-        private TreeNode<T> Find (T value, TreeNode<T> subroot)
+        private TreeNode<T> Find(T value, TreeNode<T> subroot)
         {
             if (subroot == null)
                 return null;
@@ -123,7 +124,7 @@ namespace Forest
                 return true;
             if (value.CompareTo(node.Value) > 0)
                 return Contains(value, node.right);
-            else 
+            else
                 return Contains(value, node.left);
         }
 
@@ -168,24 +169,85 @@ namespace Forest
             sym.Add(node.Value);
             Symmetric(node.right);
         }
+
+        public void Print()
+        {
+            _print(root);
+        }
+
+        private void _print(TreeNode<T> node)
+        {
+            if (node == null) 
+                return;
+            _print(node.left);
+            Console.WriteLine(node.Value);
+            _print(node.right);
+        }
+
+        private void store(List<TreeNode<T>> n, TreeNode<T> p)
+        {
+            if (p == null)
+            {
+                return;
+            }
+            store(n, p.left);
+            n.Add(p);
+            store(n, p.right);
+        }
+
+        public void ReorderToIdeal()
+        {
+            root = MakeIdeal(root);
+        }
+        private TreeNode<T> MakeIdeal(TreeNode<T> p)
+        {
+            var nodes = new List<TreeNode<T>>();
+            store(nodes, p);
+            return BuildIdeal(nodes, 0, nodes.Count - 1);
+        }
+
+        private TreeNode<T> BuildIdeal(List<TreeNode<T>> n, int a, int b)
+        {
+            if (a > b)
+                return null;
+
+            int m = (a + b) / 2;
+            var p = n[m];
+            p.left = BuildIdeal(n, a, m - 1);
+            p.right = BuildIdeal(n, m + 1, b);
+            return p;
+        }
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            var list = new Stree<int>();
-            list.Add(5);
-            list.Add(8);
-            list.Add(3);
-            list.Add(1);
-            list.Add(4);
-            list.Add(6);
-            list.Add(9);
+            var tree = new Stree<int>();
+            tree.Add(1);
+            tree.Add(2);
+            tree.Add(3);
+            tree.Add(4);
+            tree.Add(5);
+            tree.Add(6);
+            tree.Add(7);
 
             Console.WriteLine();
-            //Console.WriteLine(list.GetHeight);
-            Console.WriteLine(string.Join(", ", list.SymmetricBypass.Select(num => num.ToString())));
+            //var rnd = new System.Random(1);
+            //var init = Enumerable.Range(0, 10_000_000).OrderBy(x => rnd.Next()).ToArray();
+            //foreach (var i in init)
+            //{
+            //    tree.Add(i);
+            //}
+
+            tree.Print();
+
+            Console.WriteLine();
+            Console.WriteLine(tree.GetHeight());
+            tree.ReorderToIdeal();
+            Console.WriteLine(tree.GetHeight());
+
+            //Console.WriteLine(string.Join(", ", tree.SymmetricBypass.Select(num => num.ToString())));
         }
     }
 }
