@@ -1,0 +1,10 @@
+C:\Users\aeo.19\source\repos\Dictionary\Dictionary\bin\Release\netcoreapp3.0\Dictionary.exe
+C:\Users\aeo.19\source\repos\Dictionary\Dictionary\bin\Release\netcoreapp3.0\Dictionary.deps.json
+C:\Users\aeo.19\source\repos\Dictionary\Dictionary\bin\Release\netcoreapp3.0\Dictionary.runtimeconfig.json
+C:\Users\aeo.19\source\repos\Dictionary\Dictionary\bin\Release\netcoreapp3.0\Dictionary.runtimeconfig.dev.json
+C:\Users\aeo.19\source\repos\Dictionary\Dictionary\bin\Release\netcoreapp3.0\Dictionary.dll
+C:\Users\aeo.19\source\repos\Dictionary\Dictionary\bin\Release\netcoreapp3.0\Dictionary.pdb
+C:\Users\aeo.19\source\repos\Dictionary\Dictionary\obj\Release\netcoreapp3.0\Dictionary.AssemblyInfoInputs.cache
+C:\Users\aeo.19\source\repos\Dictionary\Dictionary\obj\Release\netcoreapp3.0\Dictionary.AssemblyInfo.cs
+C:\Users\aeo.19\source\repos\Dictionary\Dictionary\obj\Release\netcoreapp3.0\Dictionary.dll
+C:\Users\aeo.19\source\repos\Dictionary\Dictionary\obj\Release\netcoreapp3.0\Dictionary.pdb
